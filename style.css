@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.keys {
+    font-size: 15rem;
+    font-family:'Courier New', Courier, monospace ;
+    opacity: .8;
+}
+
+.btn-main {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: .2rem;
+}
+
+.btn-key {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: .2rem;
+}
+
+.d-none {
+    display: none;
+}
